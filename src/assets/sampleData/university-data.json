@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Massachusetts Institute of Technology",
+    "programmes": [
+      {
+        "id": 1,
+        "name": "CS (MIT)",
+        "programmeType": "BSc",
+        "modules": [
+          {
+            "id": 1,
+            "code": "UCS001",
+            "name": "Introduction to Programming I",
+            "year": 1,
+            "semester": 1
+          },
+          {
+            "id": 2,
+            "code": "UCS002",
+            "name": "Data Structures",
+            "year": 3,
+            "semester": 1,
+            "moduleType": "MANDATORY"
+          },
+          {
+            "id": 3,
+            "code": "UCS003",
+            "name": "Algorithms",
+            "year": 2,
+            "semester": 2,
+            "moduleType": "OPTIONAL"
+          },
+          {
+            "id": 4,
+            "code": "UCS004",
+            "name": "Logic Programming",
+            "year": 1,
+            "semester": 2,
+            "moduleType": "MANDATORY"
+          },
+          {
+            "id": 5,
+            "code": "UCS005",
+            "name": "Database Systems",
+            "year": 1,
+            "semester": 1,
+            "moduleType": "OPTIONAL"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "MS (MIT)",
+        "programmeType": "MSc"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Harvard University",
+    "programmes": [
+      {
+        "id": 3,
+        "name": "CS (Harvard)",
+        "programmeType": "BSc"
+      },
+      {
+        "id": 4,
+        "name": "MS (Harvard)",
+        "programmeType": "MSc"
+      }
+    ]
+  }
+]

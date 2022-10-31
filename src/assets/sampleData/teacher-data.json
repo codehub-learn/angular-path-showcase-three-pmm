@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "fullName": "Nikoleta Nikolatounou",
+    "personalEmail": "nikoletanikolatounou@gmail.com",
+    "gender": "FEMALE",
+    "mobileNumber": "6980782157"
+  },
+  {
+    "id": 2,
+    "fullName": "Giannis Giannatos",
+    "personalEmail": "giannisgiannatos@gmail.com",
+    "gender": "MALE",
+    "mobileNumber": "6980781234"
+  },
+  {
+    "id": 3,
+    "fullName": "Manolis Manolou",
+    "personalEmail": "manolismanolou@gmail.com",
+    "gender": "MALE",
+    "mobileNumber": "6980784321"
+  },
+  {
+    "id": 4,
+    "fullName": "Petros Petridis",
+    "personalEmail": "petrospetridis@gmail.com",
+    "gender": "MALE",
+    "mobileNumber": "6980745463"
+  },
+  {
+    "id": 5,
+    "fullName": "Xara Xariklidi",
+    "personalEmail": "xaraxariklidi@gmail.com",
+    "gender": "FEMALE",
+    "mobileNumber": "6980788103"
+  },
+  {
+    "id": 6,
+    "fullName": "Giannis Giannakis",
+    "personalEmail": "giannisgiannakis@gmail.com",
+    "gender": "MALE",
+    "mobileNumber": "6980784444"
+  }
+]

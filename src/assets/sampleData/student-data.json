@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "registrationNumber": "CS001",
+    "personalEmail": "anaamari@gmail.com",
+    "name": "Ana Amari",
+    "dateOfBirth": "1992-01-29",
+    "admissionYear": "2022",
+    "gender": "FEMALE",
+    "mobileNumber": "6980782901",
+    "programme": {
+      "id": 1,
+      "name": "CS (MIT)"
+    },
+    "enrollments": [
+      {
+        "id": 1,
+        "module": {
+          "id": 1,
+          "code": "UCS001",
+          "name": "Introduction to Programming I",
+          "year": 1,
+          "semester": 1
+        },
+        "grade": 15
+      },
+      {
+        "id": 2,
+        "module": {
+          "id": 2,
+          "code": "UCS002",
+          "name": "Data Structures",
+          "year": 3,
+          "semester": 1,
+          "moduleType": "MANDATORY"
+        },
+        "grade": 0
+      },
+      {
+        "id": 3,
+        "module": {
+          "id": 3,
+          "code": "UCS003",
+          "name": "Algorithms",
+          "year": 2,
+          "semester": 2,
+          "moduleType": "OPTIONAL"
+        },
+        "grade": 78
+      },
+      {
+        "id": 4,
+        "module": {
+          "id": 4,
+          "code": "UCS004",
+          "name": "Logic Programming",
+          "year": 1,
+          "semester": 2,
+          "moduleType": "MANDATORY"
+        },
+        "grade": 45
+      },
+      {
+        "id": 5,
+        "module": {
+          "id": 5,
+          "code": "UCS005",
+          "name": "Database Systems",
+          "year": 1,
+          "semester": 1,
+          "moduleType": "OPTIONAL"
+        },
+        "grade": -1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "registrationNumber": "CS002",
+    "personalEmail": "jackmorrison@gmail.com",
+    "name": "Jack Morrison",
+    "dateOfBirth": "1996-02-24",
+    "admissionYear": "2022",
+    "gender": "MALE",
+    "mobileNumber": "6980718832",
+    "programme": {
+      "id": 1,
+      "name": "CS (MIT)"
+    },
+    "enrollments": [
+      {
+        "id": 6,
+        "module": {
+          "id": 1,
+          "code": "UCS001",
+          "name": "Introduction to Programming I",
+          "year": 1,
+          "semester": 1,
+          "moduleType": "MANDATORY"
+        },
+        "grade": 12
+      },
+      {
+        "id": 7,
+        "module": {
+          "id": 5,
+          "code": "UCS005",
+          "name": "Database Systems",
+          "year": 1,
+          "semester": 1,
+          "moduleType": "OPTIONAL"
+        },
+        "grade": 89
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "registrationNumber": "CS003",
+    "personalEmail": "gabrielreyes@gmail.com",
+    "name": "Gabriel Reyes",
+    "dateOfBirth": "1991-04-25",
+    "admissionYear": "2015",
+    "gender": "MALE",
+    "mobileNumber": "6980714321",
+    "programme": {
+      "id": 1,
+      "name": "CS (MIT)"
+    },
+    "enrollments": [
+      {
+        "id": 8,
+        "module": {
+          "id": 5,
+          "code": "UCS005",
+          "name": "Database Systems",
+          "year": 1,
+          "semester": 1,
+          "moduleType": "OPTIONAL"
+        },
+        "grade": 99
+      },
+      {
+        "id": 9,
+        "module": {
+          "id": 4,
+          "code": "UCS004",
+          "name": "Logic Programming",
+          "year": 1,
+          "semester": 2,
+          "moduleType": "MANDATORY"
+        },
+        "grade": -1
+      },
+      {
+        "id": 10,
+        "module": {
+          "id": 2,
+          "code": "UCS002",
+          "name": "Data Structures",
+          "year": 3,
+          "semester": 1,
+          "moduleType": "MANDATORY"
+        },
+        "grade": -1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "registrationNumber": "MS001",
+    "personalEmail": "orisanumbanian@gmail.com",
+    "name": "Orisa Numbanian",
+    "dateOfBirth": "1999-02-27",
+    "admissionYear": "2016",
+    "gender": "OTHER",
+    "mobileNumber": "6980714456",
+    "programme": {
+      "id": 2,
+      "name": "MS (MIT)"
+    }
+  },
+  {
+    "id": 5,
+    "registrationNumber": "MS002",
+    "personalEmail": "moiraodeorain@gmail.com",
+    "name": "Moira Deorain",
+    "dateOfBirth": "1992-07-21",
+    "admissionYear": "2019",
+    "gender": "FEMALE",
+    "mobileNumber": "6980714123",
+    "programme": {
+      "id": 2,
+      "name": "MS (MIT)"
+    }
+  }
+]
