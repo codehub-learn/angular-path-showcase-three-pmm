@@ -15,6 +15,7 @@ import { HeaderComponent } from './core/header/header.component';
 import {MatListModule} from "@angular/material/list";
 import { SideNavComponent } from './core/side-nav/side-nav.component';
 import {MatMenuModule} from "@angular/material/menu";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {MatMenuModule} from "@angular/material/menu";
     MatIconModule,
     MatButtonModule,
     MatListModule,
-    MatMenuModule
+    MatMenuModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
