@@ -1,10 +1,22 @@
 <mat-nav-list>
-  <a mat-list-item routerLink=""> Home </a>
-  <a mat-list-item routerLink="/teachers"> Teachers </a>
-  <a mat-list-item routerLink="/archive"> Archive </a>
+  <a mat-list-item [routerLinkActive]="['active']" routerLink="/home" (click)="emitEvent()">
+    <mat-icon>home</mat-icon>
+    <span class="nav-caption">Home</span>
+  </a>
+  <a mat-list-item [routerLinkActive]="['active']" routerLink="/teachers" (click)="emitEvent()">
+    <mat-icon>person</mat-icon>
+    <span class="nav-caption">Teachers</span>
+  </a>
+  <a mat-list-item [routerLinkActive]="['active']" routerLink="/archive" (click)="emitEvent()">
+    <mat-icon>my_library_books</mat-icon>
+    <span class="nav-caption">Archive</span>
+  </a>
+  <mat-list-item [matMenuTriggerFor]="menu">
+    <mat-icon>account_box</mat-icon>
+    <a class="nav-caption">Account</a>
+  </mat-list-item>
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item (click)="emitEvent()">Settings</a>
+    <a mat-menu-item (click)="emitEvent()">Logout</a>
+  </mat-menu>
 </mat-nav-list>
-
-<!--
-todo close when the user chooses an item
-todo mark where the user currently is
--->

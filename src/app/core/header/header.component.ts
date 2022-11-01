@@ -7,13 +7,13 @@ import {Component, EventEmitter, Output} from '@angular/core';
 })
 export class HeaderComponent {
 
-  @Output() sidenavClose = new EventEmitter;
+  @Output() sidenavToggle = new EventEmitter;
 
   constructor() {
   }
 
   emitEvent() {
-    this.sidenavClose.emit();
+    this.sidenavToggle.emit();
   }
 
 }

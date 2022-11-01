@@ -14,6 +14,7 @@ import {MatButtonModule} from "@angular/material/button";
 import { HeaderComponent } from './core/header/header.component';
 import {MatListModule} from "@angular/material/list";
 import { SideNavComponent } from './core/side-nav/side-nav.component';
+import {MatMenuModule} from "@angular/material/menu";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SideNavComponent } from './core/side-nav/side-nav.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatListModule
+    MatListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
