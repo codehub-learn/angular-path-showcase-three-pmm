@@ -9,12 +9,8 @@ import {StudentService} from "../../services/student.service";
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private studentService: StudentService) { }
+  constructor() { }
 
-  ngOnInit(): void {
-    this.studentService.getStudents().subscribe(students => {
-      console.log(students);
-    });
-  }
+  ngOnInit(): void {}
 
 }

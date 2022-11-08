@@ -17,6 +17,10 @@ import { SideNavComponent } from './core/side-nav/side-nav.component';
 import {MatMenuModule} from "@angular/material/menu";
 import {HttpClientModule} from "@angular/common/http";
 import {MatTableModule} from "@angular/material/table";
+import { StudentTableComponent } from './modules/home/student-table/student-table.component';
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatInputModule} from "@angular/material/input";
+import {MatSortModule} from "@angular/material/sort";
 
 @NgModule({
   declarations: [
@@ -25,21 +29,25 @@ import {MatTableModule} from "@angular/material/table";
     TeachersComponent,
     ArchiveComponent,
     HeaderComponent,
-    SideNavComponent
+    SideNavComponent,
+    StudentTableComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        MatSidenavModule,
-        MatToolbarModule,
-        MatIconModule,
-        MatButtonModule,
-        MatListModule,
-        MatMenuModule,
-        HttpClientModule,
-        MatTableModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
+    MatListModule,
+    MatMenuModule,
+    HttpClientModule,
+    MatTableModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSortModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
